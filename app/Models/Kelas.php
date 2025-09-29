@@ -9,9 +9,17 @@ class Kelas extends Model
 {
     use HasFactory;
 
-    protected $guarded = ['id'];
-    public function user()
+    protected $table = 'kelas';  
+    protected $fillable = ['nama_kelas'];
+
+    public function users()
     {
         return $this->hasMany(UserModel::class, 'kelas_id');
     }
+
+    public function getKelas()
+    {
+        return $this->all();
+    }
 }
+
