@@ -22,4 +22,3 @@ class Kelas extends Model
         return $this->all();
     }
 }
-
