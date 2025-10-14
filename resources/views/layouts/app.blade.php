@@ -10,9 +10,8 @@
           rel="stylesheet">
 
     <style>
-        /* Ubah warna navbar & footer jadi biru muda */
         .custom-bg {
-            background-color: #5dade2 !important; /* biru muda */
+            background-color: #5dade2 !important; 
         }
     </style>
 </head>
